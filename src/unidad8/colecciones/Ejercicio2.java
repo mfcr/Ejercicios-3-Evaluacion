@@ -9,7 +9,6 @@ import java.util.Scanner;
 import java.util.TreeSet;
 
 public class Ejercicio2 {
-
 	public static void main(String[] args) {
 		Scanner teclado=new Scanner(System.in);
 		System.out.print("Introduzca numero elementos:");
@@ -41,5 +40,4 @@ public class Ejercicio2 {
 		}
 		teclado.close();
 	}
-
 }
