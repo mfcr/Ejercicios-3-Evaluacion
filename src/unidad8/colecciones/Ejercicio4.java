@@ -7,6 +7,7 @@ public class Ejercicio4 {
 		Scanner teclado =new Scanner (System.in);
 		Palabras mapa=new Palabras();
 		String comando="";
+		System.out.println();
 		do {
 			//String cmd = s.next("añadir:|lista|borrar$|borrar:|fin$"); <--Esta manera permite lista restringida o NoSuchElementException.
 			System.out.print ("Introduzca comando: texto: frase a añadir | lista longitud_palabras | borrar | borrar: borrar y palabras a añadir | salir");
