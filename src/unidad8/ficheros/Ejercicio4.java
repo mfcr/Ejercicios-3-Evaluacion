@@ -27,7 +27,7 @@ public class Ejercicio4 {
 			//Guardamos fichero en ruta idem 
 			String nuevoFichero=fichero.substring(0,fichero.lastIndexOf("\\"))+"\\guardadoBinario.bin";
 			try (DataOutputStream dos=new DataOutputStream(new BufferedOutputStream(new FileOutputStream(nuevoFichero,true)))) {
-				dos.writeUTF(nuevoFichero); dos.writeInt(lineas); dos.writeInt(palabras); dos.writeInt(caracteres);
+				dos.writeUTF(fichero); dos.writeInt(lineas); dos.writeInt(palabras); dos.writeInt(caracteres);
 			} catch (IOException e) { System.out.println("Error al guardar el fichero con los resultados"); } 
 
 			//try (BufferedOutputStream bos=new BufferedOutputStream(new FileOutputStream(nuevoFichero,true))) {
